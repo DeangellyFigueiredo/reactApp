@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato',sans-serif;
+}
+
+
+
+.home, .politicas, .relatorio{
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.buttonDiv{
+  display: flex;
+  gap: 30px;
+}
+
+.formDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#showCase{
+  width: 500px;
+}
+
+#showCase thead tr th{
+  text-align: left;
+  background-color: #1976d2;
+  height: 40px;
+}
+
+
+th, td{
+  text-align: left;
+  height: 40px;
+  padding: 0px 10px  ;
+}
+
+td{
+  background-color: rgb(215, 215, 215);
+}
+
+#politcActions{
+  display: flex;
+  gap: 30px;
+}
